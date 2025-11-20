@@ -1,0 +1,110 @@
+.game-container {
+    background: white;
+    border-radius: 15px;
+    padding: 3rem;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+  
+  .game-container h2 {
+    color: #1e3c72;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .game-container h3 {
+    color: #333;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #f5f5f5;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .answers button {
+    padding: 1.2rem;
+    font-size: 1rem;
+    background: #f5f5f5;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin: 0;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .answers button:hover:not(:disabled) {
+    background: #e0e0e0;
+    border-color: #1e3c72;
+    transform: translateY(-2px);
+  }
+  
+  .answers button:disabled {
+    cursor: not-allowed;
+  }
+
+  .feedback {
+    text-align: center;
+    padding: 1.5rem;
+    background: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .feedback p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .feedback button {
+    background: #1e3c72;
+    color: white;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .feedback button:hover {
+    background: #2a5298;
+  }
+  
+  .game-over {
+    background: white;
+    border-radius: 15px;
+    padding: 3rem;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  .game-over h1 {
+    color: #1e3c72;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .game-over h2 {
+    color: #555;
+    margin: 1rem 0;
+  }
+  
+  .game-over button {
+    margin-top: 2rem;
+    max-width: 300px;
+  }
