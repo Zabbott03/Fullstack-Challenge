@@ -34,10 +34,7 @@ function App() {
 }
 
 
-// This is a chance for the rebase demo!
-// This is another change for the demo, but using rebase this time.
-
-// Third and final change
+// This is a conflicting change!
 
 function IntroPage({set_current_page, set_difficulty, difficulty, category, set_category}) {
   return ( 
