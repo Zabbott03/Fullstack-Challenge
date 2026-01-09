@@ -33,6 +33,9 @@ function App() {
   )
 }
 
+
+// This is a chance for the rebase demo!
+
 function IntroPage({set_current_page, set_difficulty, difficulty, category, set_category}) {
   return ( 
   <div className="intro-container">
