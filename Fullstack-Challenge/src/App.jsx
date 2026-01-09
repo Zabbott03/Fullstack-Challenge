@@ -39,6 +39,15 @@ function IntroPage({set_current_page, set_difficulty, difficulty, category, set_
     <h3>About the game:</h3>
     <h4>This is a trivia game where contestants will be tested on their knowledge of obscure facts!</h4>
     <h4>Please select a difficulty, as well as your desired category of trivia. Then press "Start" to get right into the game!</h4>
+
+    <div>
+      <h3>
+        Please Login!
+      </h3>
+      <form>
+        <input type="email"/>
+      </form>
+    </div>
     
     <div className="difficulty_selection">
       <h2>Choose your Difficulty!</h2>
