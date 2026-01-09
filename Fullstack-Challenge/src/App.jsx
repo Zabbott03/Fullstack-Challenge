@@ -34,7 +34,7 @@ function App() {
 }
 
 
-// this is the new line 37
+// this is the new feature that is a login form for the app!
 
 function IntroPage({set_current_page, set_difficulty, difficulty, category, set_category}) {
   return ( 
